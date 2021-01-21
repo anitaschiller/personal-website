@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    padding: 2rem;
+    color: #262729;
+}
+
+header {
+    background-color: moccasin;
+    padding: 2rem;
+}
+
+.nav {
+    color: 
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    color: indianred;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+table {
+    background-color: gainsboro;
+    border: solid black 1px; 
+    width: 800px;
+    font-weight: 100;
+}
+
+th {
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
+th.date {
+    width: 15%;
+}
+
+th.content {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
