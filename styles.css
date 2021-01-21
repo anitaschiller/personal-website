@@ -43,11 +43,27 @@ th {
 }
 
 th.date {
-    width: 15%;
+    width: 10%;
 }
 
-th.content {
-    width: 35%;
+th.job {
+    width: 30%
+}
+
+th.company {
+    width: 50%;
+}
+
+.linkcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.linkcontainer_item {
+    border: solid 1px black;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
 }
 
 
