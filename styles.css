@@ -72,7 +72,7 @@ li {
 .aboutme {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.05fr 0.5fr auto 0.5fr;
+    grid-template-rows: 0.05fr 0.5fr auto 0.3fr;
     grid-gap: 0.5rem;
     padding: 1rem;
 }
@@ -80,6 +80,7 @@ li {
 .headline {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    font-weight: bold;
 }
 
 .contact {
@@ -150,6 +151,10 @@ a {
 .stations {
     border-left: solid 0.2rem #13ca91;
     padding: 0 0.5rem;
+}
+
+.contact-item {
+    margin: 1rem 0;
 }
 
 @media (max-width: 550px) {
